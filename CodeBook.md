@@ -17,10 +17,55 @@ The tidy data set was completed according to the following assumptions and/or st
 
 ![Alt text](/tidy.jpg)
 
+The variables of the tidy data set are exactly the same as the variables of the raw data set, except for the modifications above described, that is, the original pre-processed data were the following estimates:
+1. mean(): Mean value
+2. std(): Standard deviation
+3. mad(): Median absolute deviation 
+4. max(): Largest value in array
+5. min(): Smallest value in array
+6. sma(): Signal magnitude area
+7. energy(): Energy measure. Sum of the squares divided by the number of values. 
+8. iqr(): Interquartile range 
+9. entropy(): Signal entropy
+10. arCoeff(): Autorregresion coefficients with Burg order equal to 4
+11. correlation(): correlation coefficient between two signals
+12. maxInds(): index of the frequency component with largest magnitude
+13. meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+14. skewness(): skewness of the frequency domain signal 
+15. kurtosis(): kurtosis of the frequency domain signal 
+16. bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+17. angle(): Angle between to vectors.
 
+Additionaly, as explained in "features.txt" from the original data [1] "additiona vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable" were also included:
+- gravityMean
+- tBodyAccMean
+- tBodyAccJerkMean
+- tBodyGyroMean
+- tBodyGyroJerkMean
 
+The estimates were all calculated from the following signals:
+1. tBodyAcc-XYZ
+2. tGravityAcc-XYZ
+3. tBodyAccJerk-XYZ
+4. tBodyGyro-XYZ
+5. tBodyGyroJerk-XYZ
+6. tBodyAccMag
+7. tGravityAccMag
+8. tBodyAccJerkMag
+9. tBodyGyroMag
+10. tBodyGyroJerkMag
+11. fBodyAcc-XYZ
+12. fBodyAccJerk-XYZ
+13. fBodyGyro-XYZ
+14. fBodyAccMag
+15. fBodyAccJerkMag
+16. fBodyGyroMag
+17. fBodyGyroJerkMag
 
+Finally, the complete details af how the data was obtained as well as the names of the columns can be found in the original data set zipped file, which can be obtained at: 
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
 
+### References
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
