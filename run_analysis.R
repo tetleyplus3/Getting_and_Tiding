@@ -1,5 +1,4 @@
 run_analysis <- function()
-a
 
 ## Read the activity levels, which describes what activity the subject doing
 ## the experiment was performing at the time of the recording
