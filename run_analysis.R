@@ -123,16 +123,12 @@ write.table(all_data,"all_data.txt", sep = "")
 write.table(means_stds_data,"only_means_n_stds.txt", sep = "")
 
 
-
-
-# x_test <- read.table('./test/X_test.txt')
-# y_test <- read.table('./test/y_test.txt')
-# subject_test <- read.table('./test/subject_test.txt')
-# 
-# body_acc_x_train <- read.table("./train/Inertial Signals/body_acc_x_train.txt")
-# body_gyro_x_train <- read.table("./train/Inertial Signals/body_gyro_x_train.txt")
-# total_acc_x_train <- read.table("./train/Inertial Signals/total_acc_x_train.txt")
-# 
-# body_acc_x_test <- read.table("./test/Inertial Signals/body_acc_x_test.txt")
-# total_acc_x_test <- read.table("./test/Inertial Signals/total_acc_x_test.txt")
-# body_gyro_x_test <- read.table("./test/Inertial Signals/body_gyro_x_test.txt")
+#######################################################
+#######################################################
+##                                                   ##
+##                                                   ##
+##        E  N  D    O  F    P  R  O  G  R  A  M     ##
+##                                                   ##
+##                                                   ##
+#######################################################
+#######################################################
