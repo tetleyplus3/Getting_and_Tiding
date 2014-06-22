@@ -10,7 +10,12 @@ The tidy data set was completed according to the following assumptions and/or st
 - Combining y_train and activity_label, we can obtain a factor variable which describes with words the activity performed by each subject
 - The file features.txt contains the column names for the x_train file
 - I considered the names conatind in features very descriptive of the data, therefore I kept these names as the column names
-- The tidy data set  
+- An additional column called "stage" containing the label "TRAINING" was also created
+- The (tidy) training data set was placed in a data.frame by binding the columns: 1) subject_train  2) y_train pointing to activity_label in a column called "activity" 3) the column "stage" with the text "TRAINING" in each row and  4) x_train
+- Finally, the data.frame was named according to the following: column 1 -> "subject id"; column 2 -> "activity"; column 3 -> "stage" and column 5 to end according to the names taken from "features.txt"
+- The following image might better represent what written above 
+
+![Alt text](/tidy.jpg)
 
 
 
